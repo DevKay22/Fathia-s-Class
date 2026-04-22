@@ -1,0 +1,37 @@
+h1{
+    color: blue;
+    border: 1px solid red;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+p{
+    color: blue;
+    font-size: 20px;
+    border: 1px solid red;
+    padding-left: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.building{
+    border: 1px solid red;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.building>div{
+    height: 2em;
+    border: 1px solid black;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
